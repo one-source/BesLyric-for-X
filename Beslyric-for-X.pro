@@ -127,7 +127,7 @@ ICON = BesLyric.icns
 #  No test on other Linux distros!
 # from: https://stackoverflow.com/questions/45329372/ubuntu-recognizes-executable-as-shared-library-and-wont-run-it-by-clicking
 !macx:unix{
-    QMAKE_LFLAGS *= -no-pie
+#    QMAKE_LFLAGS *= -no-pie
 }
 
 #--------------------------------
